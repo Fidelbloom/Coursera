@@ -1,0 +1,178 @@
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1 {
+  text-align: center;
+  font-size: 175%;
+  margin-bottom: 50px;
+}
+
+p.titulo { 
+  text-align: center;
+  
+  font-size: 125%;
+}
+
+p.texto {
+  margin-left: 5%;
+  margin-top: 90px;
+  margin-right: 5%;
+  text-justify: auto;
+}
+
+span.meat {
+  font-weight: bold;
+  color:maroon
+}
+span.fish {
+  font-weight: bold;
+  color:darkblue
+}
+
+span.salad {
+  font-weight: bold;
+  color: green;
+}
+
+
+.container {
+  
+  overflow-x: hidden;
+  position: relative;
+   margin-left: 10%;
+
+}
+
+.Cajacontenedora {
+  border: 5px solid black;
+  border-width: 1px;
+  float: left;
+  width: 28%;
+  margin: 20px;
+  position: relative;
+  background-color: pink;
+  
+}
+
+.cajatitulo {
+
+  border: 5px solid black;  
+  border-width: 1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: auto;
+  
+    
+    }
+      
+#beef {
+  background-color: maroon;
+  color: white; 
+}
+
+#fish {
+  background-color: aqua;
+  color: darkblue;
+}
+
+#salad {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+ 
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .Cajacontenedora {
+    border: 5px solid black;
+    border-width: 1px;
+    float: left;
+    width: 30%;
+    margin: 55px;
+    position: relative;
+    background-color: pink;
+    
+  }
+
+  .cajamedia {
+
+    border: 5px solid black;
+    border-width: 1px;
+    float: left;
+    width: 90%;
+    margin: 30px;
+    position: relative;
+    background-color: pink;  
+
+  }
+  
+  .cajatitulo {
+  
+    border: 5px solid black;  
+    border-width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: auto;    
+      
+      }
+
+  .cajatitulomedia {
+  
+    border: 5px solid black;  
+    border-width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 38%;
+    
+      
+      }
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+
+  .cajachiquita {
+
+    border: 5px solid black;
+    border-width: 1px;
+    float: left;
+    width: 90%;
+    position: relative;
+    background-color: pink;  
+
+  }
+
+  .cajatitulo {
+
+    border: 1px black;  
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    overflow: hidden;
+
+    
+      }
+
+
+}
+  
+
+  
+ 
+  
+
+
