@@ -1,0 +1,42 @@
+
+h2 {
+  margin-bottom: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+.superContainer{ 
+  
+  border: solid;
+  border-color: red;
+  height: 1000px;
+  background-color: gray;
+  margin: 30px;
+
+}
+
+
+  .nav a{
+    text-align: center;
+    border-bottom: solid;
+    border-color: lightgray;
+  }
+
+  @media (min-width: 768px) {
+
+    .hideplz {
+
+      visibility: hidden;
+      overflow: hidden;
+    }
+
+
+
+  }
+ 
+
+
