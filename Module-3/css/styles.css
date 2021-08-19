@@ -3,19 +3,22 @@ h2 {
   margin-bottom: 40px;
 }
 
+
 p {
-  text-align: center;
+  
+   margin: 20px;
+  
 }
 
 
 
 .superContainer{ 
   
-  border: solid;
-  border-color: red;
+  
   height: 1000px;
   background-color: gray;
   margin: 30px;
+  overflow: scroll;
 
 }
 
@@ -33,10 +36,8 @@ p {
       visibility: hidden;
       overflow: hidden;
     }
-
-
-
   }
+
  
 
 
