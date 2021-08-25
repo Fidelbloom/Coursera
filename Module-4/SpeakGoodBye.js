@@ -1,0 +1,15 @@
+(function () {
+
+  var speakWord = "Good Bye";
+
+  var byeSpeaker = {};
+  
+ byeSpeaker.speak = function () {
+    console.log(speakWord + " ");
+  }
+  
+  byeSpeaker.speak();
+
+
+
+})();
