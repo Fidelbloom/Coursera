@@ -4,12 +4,13 @@
 
   var byeSpeaker = {};
   
- byeSpeaker.speak = function () {
-    console.log(speakWord + " ");
+ byeSpeaker.speak = function (names) {
+    console.log(speakWord + " " + names);
   }
   
-  byeSpeaker.speak();
+  window.byeSpeaker = byeSpeaker;
 
 
 
 })();
+

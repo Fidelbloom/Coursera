@@ -4,12 +4,11 @@
 
   var helloSpeaker = {};
   
- helloSpeaker.speak = function () {
-    console.log(speakWord + " "+ this.name);
+ helloSpeaker.speak = function (names) {
+    console.log(speakWord + " "+ names);
   }
-  
-  
 
+window.helloSpeaker = helloSpeaker;
 
 
 })();
